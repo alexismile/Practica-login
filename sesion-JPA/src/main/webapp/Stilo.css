@@ -1,0 +1,95 @@
+*{
+	font-family: arial, helvetica;
+	color:#ff8040;
+}
+label{
+	font-size: 30px; 
+	font-family: 'Indie Flower', cursive;
+	color:#ff8040;
+	
+	
+}
+label1{
+
+font-size: 40px; 
+font-family: 'Indie Flower', cursive;
+color:#ff8040;
+}
+
+.login-boxi{
+ width: 200px;
+    height: 475px;
+    background:url("C:\Users\Alexiis\Desktop\sing in/lindo.jpg")
+    color: #fff;
+    top: 50%;
+    left: 50%; 
+    position: absolute;
+    transform: translate(-55%, -55%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+
+
+}
+
+.login-boxi.avatar{
+
+
+width: 10px;
+height: 10px;
+border-radius: 50%;
+position: absolute;
+top: -10px;
+left: calc(10% - 10px);
+
+
+}
+
+.login-boxi {
+   margin: 0; 
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    
+}
+
+.login-boxi{
+    margin: 0;
+    padding: 20 20 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-boxi,input {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.login-boxi input[type="text"],
+.login-boxi input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Gochi Hand', cursive;
+    
+}
+
+.login-boxi input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #ff8040;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-boxi a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
